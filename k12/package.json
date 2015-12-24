@@ -1,0 +1,33 @@
+{
+  "name": "k12",
+  "version": "1.0.0",
+  "description": "Instance of a student micro service",
+  "main": "server.js",
+  "author": "Ranjith Kumar, Somdeep Dey, Harish Kathikeyan, Harshit Saxena",
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "apidoc": "^0.13.1",
+    "aws-sdk": "^2.2.26",
+    "body-parser": "^1.14.1",
+    "dynamodb": "^0.3.6",
+    "express": "~4.0.0",
+    "install": "^0.4.1",
+    "mongoose": "^4.1.11",
+    "npm": "^3.5.2",
+    "when": "^3.7.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "k12",
+    "student",
+    "info",
+    "data"
+  ],
+  "license": "MIT"
+}
