@@ -1,0 +1,16 @@
+{
+  "name": "Router",
+  "version": "1.0.0",
+  "description": "The router acting as API gateway for K12",
+  "main": "server.js",
+  "author": "Ranjith Kumar, Somdeep Dey, Harish Kathikeyan, Harshit Saxena",
+  "dependencies": {
+    "aws-sdk": "^2.2.26",
+    "body-parser": "^1.14.1",
+    "easy-sqs": "^0.5.0",
+    "express": "~4.0.0",
+    "http-proxy": "^1.11.2",
+    "mongoose": "^4.1.11",
+    "request": "^2.67.0"
+  }
+}
